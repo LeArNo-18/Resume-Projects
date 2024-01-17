@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 203, 210);
+    position: relative;
+}
+#nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0 10%; */
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    /* background-color: blueviolet; */
+}
+#nav h6{
+    position: absolute;
+    /* display: flex; */
+    /* justify-content: start; */
+    left: 3%;
+    font-size: 18px;
+    top: 2%;
+}
+#nav h5{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 6px 10px;
+    margin: 0 5px;
+    font-weight: 600;
+}
+
+#center{
+    height: calc(100% - 100px);/*Total % dea 100px minus koreh baki ta*/
+    width: 100%;
+    /* background-color: chartreuse; */
+    position: relative;
+    padding: 10px 20px;
+}
+
+#center h1{
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    font-style: italic;
+    left: 50%;
+    top: 1px;
+    -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: black;
+    color: transparent;
+    transform: translate(-50%,0%);
+    white-space: nowrap;
+    font-weight: 900;
+    /* background-color: brown; */
+    margin: 20px 20p;
+    letter-spacing: 15px;
+
+}
+
+#center h2{
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    font-style: italic;
+    left: 50.3%;
+    top: 16px;
+    /* -webkit-text-stroke-width: .01px;
+    -webkit-text-stroke-color: black; */
+    /* color: transparent; */
+    transform: translate(-50%,0%);
+    white-space: nowrap;
+    font-weight: 900;
+    letter-spacing: 15px
+    /* margin: 20px 0; */
+
+}
+#image{
+    position: absolute;
+    top: 60%;
+    /* background-color: red; */
+    height: 60%;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    padding: 20px 20px;
+    border: 2px solid black; 
+}
+#image img{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#but1{
+    position: absolute;
+    padding: 26px 62px;
+    font-size: 28px;
+    text-transform: capitalize;
+    border: 2px solid black;
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    background-color: rgb(170, 227, 195);
+    right: 12%;
+    top: 28%;
+    transform: rotate(-10deg);
+}
+#but2{
+    position: absolute;
+    padding: 26px 14px;
+    font-size: 28px;
+    text-transform: capitalize;
+    border: 2px solid black;
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+    white-space: nowrap;
+    background-color: rgb(170, 227, 195);
+    right: 70%;
+    top: 78%;
+    transform: rotate(10deg);
+}
+
+#image1{
+    position: absolute;
+height: 190px;
+width: 210px;
+border: 2px solid black;
+border-radius: 20%;
+top: 27%;
+transform: rotate(12deg);
+z-index: 99;
+left: 18%;
+}
+#image2{
+    position: absolute;
+    height: 190px;
+    width: 210px;
+    border: 2px solid black;
+    border-radius: 20%;
+    top: 56%;
+    z-index: 99;
+    transform: rotate(-12deg);
+    right: 20%;
+}
+#shadow1{
+    position: absolute;
+height: 190px;
+width: 210px;
+background-color: rgb(143, 158, 158);
+border: 2px solid black;
+border-radius: 20%;
+top: 29%;
+z-index: 0;
+transform: rotate(12deg);
+left: 17%;
+}
+#shadow2{
+    position: absolute;
+    height: 190px;
+    width: 210px;
+    border: 2px solid black;
+    background-color: rgb(143, 158, 158);
+    border-radius: 20%;
+    top: 58%;
+    z-index: 0;
+    transform: rotate(-12deg);
+    right: 19%;
+}
