@@ -1,1 +1,1 @@
-Constains the code of the projects
+Contains the code of the projects
